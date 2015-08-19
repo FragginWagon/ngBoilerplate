@@ -1,0 +1,25 @@
+{
+  "name": "ngBoilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "Greg R. Jacobs <greg.jacobs@binarywasteland.com>"
+  ],
+  "description": "A Boilerplate template for AngularJS using 1.4.3",
+  "license": "MIT",
+  "homepage": "http://gregrjacobs.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "bootstrap-ui": "~0.13.3",
+    "angular-bootstrap": "~0.13.3",
+    "angular-route": "~1.4.4"
+  }
+}

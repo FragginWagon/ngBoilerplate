@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngBoilerplate">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title ng-bind="title"></title>
+
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+  <script src="app/app.module.js"></script>
+  <script src="app/components/login/loginController.js"></script>
+  <script src="app/app.routes.js"></script>
+</head>
+<body>
+  <div ng-include src="'app/shared/header/header.html'"></div>
+
+  <div ng-view></div>
+</body>
+</html>
